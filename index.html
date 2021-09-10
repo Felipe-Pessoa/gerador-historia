@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div {
+            padding-bottom: 20px;
+            
+        }
+        input {
+            padding: 5px;
+            width: 50px;
+        }
+
+        p{
+            background: #836c31;
+            color: #302a28;
+            padding: 10px;
+            visibility: hidden;
+        }
+        
+    </style>
+    <div>
+        <label for="customName">
+            Entre com um nome: 
+        </label><input id="customName" type="text">
+    </div>
+    <div>
+        <label for="us">
+            US
+        </label>
+        <input id="us" type="radio" name="ukus" value="us">
+        <label for="uk">
+            UK
+        </label>
+        <input id="uk" type="radio" name="ukus" value="uk">
+    </div>
+    <div>
+        <button class="randomize">
+            Gerar historias randomicas
+        </button>
+    </div>
+    <p class="story"></p>
+    <script src="main.js" wfd-invisible="true"></script>
+</body>
+</html>
+
